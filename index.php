@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <link rel="shortcut icon" href="./img/faviconmain.png">
     <meta charset="UTF-8">
@@ -8,28 +8,38 @@
     <link rel="stylesheet" href=".\css\index.css">
 </head>
 
-<body>
+
+<body class=padraobody>
     <div class="container">
-
-        <nav>
-            <?php include './html/navindex.html'; ?>
-        </nav>
-
-        <header>            
-            <img src="./img/coat.team.logo.png" alt="coat.team">                      
-        </header>
         
+ 
+        <header"> 
+        <div>       
+            <?php include './html/navindex.html'; ?>
+        </header>
+        </div>
+
+
         <main>
-            <p>            
+            <div class="center">
+            
+           
+            <p>
+                <img src="./img/coat.team.logo.png" alt="coat.team">  
+            </p>
 
-            </p>  
+            <p> 
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
 
+            </div>
+            
+                                  
         </main>
         
-        <footer>
-            <?php include './html/footer.html'; ?>
-        </footer>
-
+        <footer">
+                    <?php include './html/footer.html'; ?>
+        </footer>       
     </div>
     
 </body>

@@ -1,73 +1,77 @@
 body {
-    color:white;
+    background-color: black;
+    
+}
+
+.container {
+    padding: 0px 50px;
+
+}
+
+.center {
+
+    text-align: center;
+}
+
+.padraobody {
+    color: white
+}
+
+.backblack {
     background-color:black;
+}
+
+.icoheader {
     font-family: Arial, Helvetica, sans-serif;
-}
-
-nav p{
-    margin-top: 2px;
-}
-
-nav ul  {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    align-items: center;
-    padding: 5px;
+    text-align: center;
+    padding: 8px;
 }
 
-nav ul img{
+.icoheader a {
+    color: white;
+    text-decoration: none;
+}
+
+.icoheader a:hover {
+    text-decoration: underline;
+}
+
+.icoheader p {
+    margin-top: 2px;
+}
+
+.icoheader img {
     width: 60px;
     height: 60px;
     border-radius: 4ch;
-    border: 2px solid white
- }
-
-nav ul a   {
-color: white;
-text-decoration: none;
-text-align: center;
-
+    border: 2px solid white;
+    text-align: center;
 }
 
-nav a:hover
-{
-        text-decoration:underline;
-}
+/* INICIO FOOTER */
 
-header {
+
+
+.icofooter {
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    justify-content: center;
-    padding: 00px
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0px;
 }
 
-main p{
-
-    margin-top: 10px;
-    margin-bottom: 50px;
-}
-
-footer img{
-    /*width: 60px;
-    height: 60px;*/
+.icofooter img {
     border-radius: 4ch;
-    /*border: 5px solid blue*/
-    }
-
-footer{
-        display: flex;
-        justify-content: space-between;
-        padding: 0px     
-    }
-
-.container{
-padding: 0px 50px;
 }
 
-.ferramentas p{
-    color:white;
-    margin-top: 150px;
-    margin-bottom: 150px;
-    font-family: 'Courier New', Courier, monospace;
+.positionfooter {
+    bottom: 0;
+    position: absolute;
+    width: 91%;
+    
+    
+      
 }
-
